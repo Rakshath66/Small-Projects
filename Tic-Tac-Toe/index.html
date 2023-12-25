@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 500;
+        }
+        .rows{
+            display: flex;
+        }
+        .col{
+            height: 65px;
+            width: 65px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="rows">
+            <div onclick="handlerUser(this)" id="0" class="col"></div>
+            <div onclick="handlerUser(this)" id="1" class="col"></div>
+            <div onclick="handlerUser(this)" id="2" class="col"></div>
+        </div>
+        <div class="rows">
+            <div onclick="handlerUser(this)" id="3" class="col"></div>
+            <div onclick="handlerUser(this)" id="4" class="col"></div>
+            <div onclick="handlerUser(this)" id="5" class="col"></div>
+        </div>
+        <div class="rows">
+            <div onclick="handlerUser(this)" id="6" class="col"></div>
+            <div onclick="handlerUser(this)" id="7" class="col"></div>
+            <div onclick="handlerUser(this)" id="8" class="col"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
